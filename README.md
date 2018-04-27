@@ -4,10 +4,11 @@ A tiny library for looking up passwords in the Have I Been Pwned database.
 ## Basic usage
 
 ```C#
-var checker = new PwnedChecker("hibp.dat");
-
-bool pwned = checker.IsPwned("P@ssword");      // true
-int count = checker.GetPwnedCount("P@ssword"); // 5728
+using (var checker = new PwnedChecker("hibp.dat"))
+{
+    bool pwned = checker.IsPwned("P@ssword");      // true
+    int count = checker.GetPwnedCount("P@ssword"); // 5728
+}
 ```
 
 ## Database file
