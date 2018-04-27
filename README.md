@@ -31,4 +31,4 @@ lookup speed is heavily dependent on disk speed and disk workload from other pro
 speed up repeated queries due to OS file caching.
 
 In the worst case, with the database on a heavily-loaded mechanical HDD and with limited RAM / cold start, lookup speed can be as low as
-50-100 lookups per second. Running off an SSD, this library can perform around 30,000 lookups per second.
+50-100 lookups per second. Running off an SSD and with RAM to spare, this library can perform around 100,000 lookups per second.
