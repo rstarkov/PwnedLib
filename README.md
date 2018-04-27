@@ -23,3 +23,12 @@ the output file path. The output file is overwritten without confirmation.
 If the input is the v2 database linked above, the output file will be 9.1 GB. The generator verifies its MD5 hash to confirm correct
 generation. The generator can also be run on future versions of the HIBP dump, but it will report a verification failure in this case,
 which is safe to ignore.
+
+## Performance
+
+This library is optimized for minimal memory usage at the expense of speed. All lookups are performed directly on disk. As a result,
+lookup speed is heavily dependent on disk speed and disk workload from other processes. Large amounts of spare RAM will significantly
+speed up repeated queries due to OS file caching.
+
+In the worst case, with the database on a heavily-loaded mechanical HDD and with limited RAM / cold start, lookup speed can be as low as
+50-100 lookups per second. Running off an SSD, this library can perform around 30,000 lookups per second.
