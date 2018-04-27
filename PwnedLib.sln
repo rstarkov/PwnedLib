@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.27130.2010
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PwnedLib", "PwnedLib\PwnedLib.csproj", "{F849B2B3-CA2D-4481-91FE-786623ABC947}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PwnedGen", "PwnedGen\PwnedGen.csproj", "{B552E922-F6E7-4704-B9BF-BF5473E94FD1}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{F849B2B3-CA2D-4481-91FE-786623ABC947}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F849B2B3-CA2D-4481-91FE-786623ABC947}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F849B2B3-CA2D-4481-91FE-786623ABC947}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F849B2B3-CA2D-4481-91FE-786623ABC947}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B552E922-F6E7-4704-B9BF-BF5473E94FD1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B552E922-F6E7-4704-B9BF-BF5473E94FD1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B552E922-F6E7-4704-B9BF-BF5473E94FD1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B552E922-F6E7-4704-B9BF-BF5473E94FD1}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {AFC65F9F-FC81-4410-9E6E-8AD2B8E3F843}
+	EndGlobalSection
+EndGlobal
