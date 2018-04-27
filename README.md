@@ -21,7 +21,7 @@ generator requires that. Or use this direct link to the [torrent file](https://d
 1. Run the PwnedGen project included in this repository, with two command-line arguments: the path to the (unzipped) HIBP text file, and
 the output file path. The output file is overwritten without confirmation.
 
-If the input is the v2 database linked above, the output file will be 9.1 GB. The generator verifies its MD5 hash to confirm correct
+Using the v2 database linked above as input, the output file is 9.1 GB large. The generator verifies its MD5 hash to confirm correct
 generation. The generator can also be run on future versions of the HIBP dump, but it will report a verification failure in this case,
 which is safe to ignore.
 
