@@ -2,14 +2,19 @@
 
   <PropertyGroup>
     <TargetFramework>netstandard2.0</TargetFramework>
+    <DocumentationFile>bin\$(Configuration)\netstandard2.0\PwnedLib.xml</DocumentationFile>
   </PropertyGroup>
 
-  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|AnyCPU'">
-    <DocumentationFile>bin\Release\netstandard2.0\PwnedLib.xml</DocumentationFile>
-  </PropertyGroup>
-
-  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|AnyCPU'">
-    <DocumentationFile>bin\Debug\netstandard2.0\PwnedLib.xml</DocumentationFile>
+  <PropertyGroup>
+    <PackageVersion>1.0.0</PackageVersion>
+    <Authors>rstarkov</Authors>
+    <Description>Lookup passwords and password hashes in a local copy of the "Have I Been Pwned" database.</Description>
+    <PackageRequireLicenseAcceptance>false</PackageRequireLicenseAcceptance>
+    <PackageProjectUrl>https://github.com/rstarkov/PwnedLib</PackageProjectUrl>
+    <RepositoryUrl>https://github.com/rstarkov/PwnedLib</RepositoryUrl>
+    <PackageLicenseUrl>https://github.com/rstarkov/PwnedLib/blob/master/LICENSE</PackageLicenseUrl>
+    <Copyright>Roman Starkov</Copyright>
+    <PackageTags>hibp pwned pwnedlib</PackageTags>
   </PropertyGroup>
 
   <ItemGroup>
