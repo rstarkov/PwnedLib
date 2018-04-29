@@ -1,4 +1,8 @@
 # PwnedLib
+
+[![Build status](https://img.shields.io/appveyor/ci/rstarkov/pwnedlib/master.svg)](https://ci.appveyor.com/project/rstarkov/pwnedlib)
+[![NuGet package](https://img.shields.io/nuget/v/PwnedLib.svg)](https://www.nuget.org/packages/PwnedLib/)
+
 A tiny library for looking up passwords in the Have I Been Pwned database.
 
 ## Basic usage
